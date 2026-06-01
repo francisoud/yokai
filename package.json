@@ -1,5 +1,5 @@
 {
-  "name": "yokai",
+  "name": "@francisoud/yokai",
   "version": "1.0.0",
   "description": "Script to distribute centralized genai files: instructions, prompts, skills and agents",
   "main": "./eng/update-readme.js",
