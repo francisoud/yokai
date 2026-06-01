@@ -1,0 +1,6 @@
+{
+  "branch": "feature/some-branch-name",
+  "version-file": "myproject-awesome-copilot.version.md",
+  "central-repo-url": "https://github.com/my-org/some-repository-with-awesome-copilot-files",
+  "commit-title": "chore: update .github files via GitHub Copilot automation"
+}

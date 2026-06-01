@@ -1,0 +1,43 @@
+{
+  "name": "@francisoud/yokai",
+  "version": "1.0.0",
+  "description": "Script to distribute centralized genai files: instructions, prompts, skills and agents",
+  "main": "./repositories-configuration.js",
+  "private": false,
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "files": [
+    "repositories-configuration.js",
+    "repositories-configuration.yaml",
+    ".repositories-configuration",
+    ".schemas/repositories-configuration.schema.json",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "start": "node repositories-configuration.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/francisoud/yokai.git"
+  },
+  "keywords": [
+    "github",
+    "copilot",
+    "ai",
+    "prompts",
+    "instructions",
+    "skills",
+    "agents"
+  ],
+  "author": "francisoud",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "ajv": "^8.20.0",
+    "find-up": "^8.0.0",
+    "glob": "^13.0.0",
+    "js-yaml": "^5.1.0",
+    "yargs": "^18.0.0"
+  }
+}
