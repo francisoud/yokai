@@ -33,7 +33,7 @@
   ],
   "author": "francisoud",
   "license": "Apache-2.0",
-  "devDependencies": {
+  "dependencies": {
     "ajv": "^8.20.0",
     "find-up": "^8.0.0",
     "glob": "^10.5.0",
