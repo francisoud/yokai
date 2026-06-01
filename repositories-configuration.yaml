@@ -1,0 +1,12 @@
+$schema: .schemas/repositories-configuration.schema.json
+scm:
+  url: git@my.github.internal:my-org
+  repositories:
+    # Example repository configuration:
+    #    - name: SOME_PROJECT
+    #      collections:
+    #        - collections/some-other.collection.yml
+    #      filesets: # (optional, prefer collections if possible)
+    #        - instructions/some.instructions.md
+    #        - instructions/another.instructions.md
+    #        - skills/my-awesome-skill/**

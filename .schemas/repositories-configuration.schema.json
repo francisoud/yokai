@@ -1,0 +1,60 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Repositories Configuration",
+    "type": "object",
+    "required": [
+        "scm"
+    ],
+    "properties": {
+        "$schema": {
+            "type": "string",
+            "description": "Optional schema declaration for editors."
+        },
+        "scm": {
+            "type": "object",
+            "required": [
+                "url",
+                "repositories"
+            ],
+            "properties": {
+                "url": {
+                    "type": "string",
+                    "description": "SCM base URL for git operations."
+                },
+                "repositories": {
+                    "type": "array",
+                    "items": {
+                        "type": "object",
+                        "required": [
+                            "name"
+                        ],
+                        "properties": {
+                            "name": {
+                                "type": "string",
+                                "description": "Repository name."
+                            },
+                            "collections": {
+                                "type": "array",
+                                "items": {
+                                    "type": "string"
+                                },
+                                "description": "List of collection YAML files."
+                            },
+                            "filesets": {
+                                "type": "array",
+                                "items": {
+                                    "type": "string"
+                                },
+                                "description": "List of files to copy."
+                            }
+                        },
+                        "additionalProperties": false
+                    },
+                    "description": "List of repositories to process."
+                }
+            },
+            "additionalProperties": false
+        }
+    },
+    "additionalProperties": false
+}
