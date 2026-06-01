@@ -2,8 +2,19 @@
   "name": "@francisoud/yokai",
   "version": "1.0.0",
   "description": "Script to distribute centralized genai files: instructions, prompts, skills and agents",
-  "main": "./eng/update-readme.js",
-  "private": true,
+  "main": "./repositories-configuration.js",
+  "private": false,
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "files": [
+    "repositories-configuration.js",
+    "repositories-configuration.yaml",
+    ".repositories-configuration",
+    ".schemas/repositories-configuration.schema.json",
+    "README.md",
+    "LICENSE"
+  ],
   "scripts": {
     "start": "node repositories-configuration.js"
   },
