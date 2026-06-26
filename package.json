@@ -1,6 +1,6 @@
 {
   "name": "@benjamin.francisoud/yokai",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Script to distribute centralized genai files: instructions, prompts, skills and agents",
   "homepage": "https://github.com/francisoud/yokai#readme",
   "bugs": {
