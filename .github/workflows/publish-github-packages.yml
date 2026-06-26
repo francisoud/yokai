@@ -22,7 +22,7 @@ jobs:
         with:
           node-version: 20
           registry-url: https://registry.npmjs.org
-          scope: '@francisoud'
+          scope: '@benjamin.francisoud'
           cache: npm
 
       - name: Install dependencies
